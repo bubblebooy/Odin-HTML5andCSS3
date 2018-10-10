@@ -1,0 +1,34 @@
+body{ background-color: lightgrey;}
+
+
+.bg-red, .btn-red{ background-color: #f72210;}
+.text-red{ color: #f72210;}
+
+.btn-white{ background-color: white;}
+
+
+.navbar-title{
+  width: 150px;
+  fill: white;
+}
+
+.max-width-xl{
+  max-width: 1310px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .navbar-header{
+    height: 95px;
+  }
+
+  .navbar-title{
+    width: 500px;
+    fill: white;
+    margin-left: auto;
+  }
+
+  .navbar-collapse-lg
+  {display: none;}
+}
